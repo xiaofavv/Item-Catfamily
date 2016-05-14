@@ -1,0 +1,244 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;
+	}
+
+html{
+	 font-size:15px;
+	}
+.head1{
+		width:100%;
+		height:70px;
+	}
+	
+.head11{
+		width:150px;
+		height:70px;
+		margin-left:100px;
+		float:left;
+	 	color:#1FADC5;
+		font-family:"Comic Sans MS", cursive;
+		/*
+		border:1px solid red;*/
+	}
+.head11 a{
+		text-decoration:none;
+	}
+.head11 a p{
+		color:#1FADC5;
+		font-size:3em;
+	}
+.head11 a p span{
+		color:#FF8000;
+	}
+.head12{
+		width:40%;
+		height:50px;
+		float:right;
+		/*
+		border:1px solid red;*/
+		margin-top:10px;
+	}
+.head12 a{
+		color:#303030;
+		font-family:"Comic Sans MS", cursive;
+		text-decoration:none;
+	}
+.head12 li{
+		list-style-type:none;
+		float:left;
+		padding:10px;
+		margin-right:30px;	
+	}
+.myhover{
+		color:#FFF;
+		padding:10px;
+		background:#1FADC5;
+	}
+.head12 li:hover{
+		color:#FFF;
+		background:#1FADC5;
+	}
+.head2{
+		width:100%;
+		height:55px;
+		background:#1FADC5;
+	}
+.head2 p{
+		margin-left:100px;
+		padding-top:19px;
+		font-size:18px;
+	
+		font-family:"Comic Sans MS", cursive;
+	}
+.head2 p a{
+		text-decoration:none;
+		color:#303030;
+	}
+.head2 p a:hover{
+		color:#FFF;
+	}
+.head2 p span{
+		color:#FFF;
+	}
+.contact1 {
+		width:100%;
+		height:200px;
+		/*
+		border:1px solid #C03;*/		
+		text-align:center;
+	}
+.contact1 h1{
+		padding-top:60px;
+		color:#1FADC5;
+		font-size:3em;
+		font-weight:100;
+		font-family:"Comic Sans MS", cursive;
+	}
+.contact1 p{
+		text-align:center;
+		padding-left:100px;
+		padding-right:100px;
+	}
+.contact2{
+		width:100%;
+		height:400px;
+		/*
+		border:1px solid #C03;*/
+	}
+.contact21{
+		width:250px;
+		height:350px;
+		/*
+		border:1px solid #C03;*/
+		float:left;
+		margin-left:100px;
+		margin-top:10px;
+	}
+.contact21 div{
+		margin-bottom:10px;
+		width:200px;
+		height:100px;
+	/*
+		border:1px solid #C03;*/
+	}
+.contact21 div h1{
+		color:#1FADC5;
+		font-family:"Comic Sans MS", cursive;
+		font-weight:100;
+	}
+/*
+.contact210{
+		width:200px;
+		height:100px;
+		border:1px solid #C03;
+	}
+.contact211{
+		width:200px;
+		height:100px;
+		border:1px solid #C03;
+	}
+.contact212{
+		width:200px;
+		height:100px;
+		border:1px solid #C03;
+	}
+*/
+.contact22{
+		margin-top:10px;
+		width:713px;
+		height:350px;
+		float:right;
+		/*
+		border:1px solid #C03;*/
+		margin-right:100px;
+	}
+.contact22 input[type=text]{
+		height:40px;
+}
+.contact22 textarea{
+		resize:none;
+	}
+.mysub{
+		height:45px;
+		width:90px;
+		color:#FFF;
+		background:#1FADC5;
+	}
+.mysub:hover{
+		background:#FF6131;
+	}
+
+
+
+
+
+.end1{
+	 width:100%;
+	 height:310px;
+	 background:#29292A;
+	}
+.end11{
+	width:570px;
+	height:280px;
+	/*
+	border:1px solid #FFF;*/
+	margin-left:100px;
+	float:left;
+	}
+.end11 h2{
+	color:#FFF;
+	font-weight:100;
+	font-family:"Comic Sans MS", cursive;
+	}
+.end11 p{
+	color:#FFF;
+	}
+.end11  a{
+	color:#FFF;
+	text-decoration:none;
+	padding:10px;
+	background:#1FADC5;
+	}
+.end11 a:hover{
+	background:#FF8000;
+	}
+.end12{
+	width:570px;
+	height:280px;
+		/*
+	border:1px solid #FFF;*/
+	margin-left:20px;
+	float:left;
+	}
+.end12 h2{
+	color:#FFF;
+	font-weight:100;
+	font-family:"Comic Sans MS", cursive;
+	}
+.end12 p{
+	color:#FFF;
+	}
+.end12  a{
+	color:#FFF;
+	text-decoration:none;
+	padding:10px;
+	background:#1FADC5;
+	}
+.end12 a:hover{
+	background:#FF8000;
+	}
+.end2{
+	width:100%;
+	height:50px;
+	/*
+	border:1px solid #FF8000;*/
+	background:#FF8000;
+	}
+.end2 p{
+	padding-top:15px;
+	text-align:center;
+	color:#FFF;
+	}

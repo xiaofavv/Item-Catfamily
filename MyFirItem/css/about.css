@@ -1,0 +1,330 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;
+	
+	}
+
+html{
+	 font-size:15px;
+	 color:#303030;
+	}
+.head1{
+		width:100%;
+		height:70px;
+	}
+	
+.head11{
+		width:150px;
+		height:70px;
+		margin-left:100px;
+		float:left;
+	 	color:#1FADC5;
+		font-family:"Comic Sans MS", cursive;
+		/*
+		border:1px solid red;*/
+	}
+.head11 a{
+		text-decoration:none;
+	}
+.head11 a p{
+		color:#1FADC5;
+		font-size:3em;
+	}
+.head11 a p span{
+		color:#FF8000;
+	}
+.head12{
+		width:40%;
+		height:50px;
+		float:right;
+		/*
+		border:1px solid red;*/
+		margin-top:10px;
+	}
+.head12 a{
+		color:#303030;
+		font-family:"Comic Sans MS", cursive;
+		text-decoration:none;
+	}
+.head12 li{
+		list-style-type:none;
+		float:left;
+		padding:10px;
+		margin-right:30px;	
+	}
+.myhover{
+		color:#FFF;
+		padding:10px;
+		background:#1FADC5;
+	}
+.head12 li:hover{
+		color:#FFF;
+		background:#1FADC5;
+	}
+
+.head2{
+		width:100%;
+		height:55px;
+		background:#1FADC5;
+	}
+.head2 p{
+		margin-left:100px;
+		padding-top:19px;
+		font-size:18px;
+	
+		font-family:"Comic Sans MS", cursive;
+	}
+.head2 p a{
+		text-decoration:none;
+		color:#303030;
+	}
+.head2 p a:hover{
+		color:#FFF;
+	}
+.head2 p span{
+		color:#FFF;
+	}
+	
+	
+	.zzzz{
+		   height:1350px;
+		   width:100%;
+		  }
+.p1{
+	/*大标题格式*/
+	font-size:50px;
+	color:#1FADC5;	
+	}
+.d1{
+	width:503px;                      /*诗歌格式*/
+	height:336px;
+	background-color:#FF8000;
+	float:right;
+	margin-right:76px;	
+	color:#FFF;
+	font-size:16px;
+	}
+.d2{
+	width:136px;                         /*诗歌标题格式*/
+	height:336px;
+	background-color:#E47506;
+	float:right;
+	color:#FFF;
+	font-size:30px;
+	}
+	.d22{width:3px; height:330px; margin:70px 0 0 50px; }
+	
+
+.d3{
+		margin-left:75px;
+		float:right;/*猫猫大图*/
+		}
+
+/*工作室的背景&标题*/
+.d4{
+	height:390px;
+	width:100%;
+	background-color:#1FADC5;
+	background-position:bottom;
+	float:right;
+	margin-top:0px;
+	/*color:#FFF;
+	font-size:50px;
+	color:#FFF;*/
+	}
+.d41{ float:right; margin:35px 20px 0px 20px; }/*个人照片格式*/
+h4{ color:#FFF; font-weight:bold;}/*个人介绍格式第一排*/
+.p3{color:#FFF;}/*个人介绍格式第n排*/
+.d42{ height:384px;
+	 border:dashed;
+	 border-color:#FFF;
+	 float:right;
+	 margin:0px 50px 10px 10px;
+	  }/*分割线*/
+.d43{ margin-top:110px;  font-size:70px;  color:#FFF;
+text-align:center;}/*小伙伴标题格式*/
+/*日常板块的格式*/
+.p2{color:#1FADC5; font-size:30px; font-style:italic; float:left; margin-left:75px; margin-top:70px;}	
+.d5{
+	float:left;
+	font-size:16px;
+	margin:40px 0 0 0;
+	list-style:none;
+	}
+	
+.d7{float:left;margin-top:30px; margin-left:50px;}/*只言片语*/
+
+.d6{/*小方块*/
+	width:36px;
+	height:36px;
+	background-color:#1FADC5;
+	margin-top:10px;
+	margin-right:10px;		
+	color:#FFF;
+	font-weight:bold;
+	float:left;
+	line-height:36px;
+ }
+.d66{/*文字*/
+	font-size:16px;
+	
+	margin-top:10px;
+	}
+.d8{ 
+ box-sizing:border-box;
+ border:1px  #1FADC5 ;
+ width:624px;
+ height:250px; 
+ float:right;
+ margin-left:80px;
+ margin-top:30px;
+ }
+.d88{ width:250px; height:200px; float:right;}/*小图*/
+.d9{color:#1FADC5; font-size:30px; margin-bottom:20px;}
+.d99{font-size:16px; line-height:40px;}
+/*苦口婆心*/
+.k{    box-sizing: border-box;
+		border:1px #1FADC5; 
+		width:410px;
+		height:300px;
+		float:right;
+		margin:30px 100px 0px 0px;
+		}
+.k1{border:1px #1FADC5 solid; 
+	width:410px;
+	height:54px;
+	margin-top:20px;
+	text-align: justify;}
+.k2{ margin:10px 0px 0px 10px;}	
+
+
+
+
+
+
+.end0{
+	width:100%;
+	height:450px;
+	background:url(img/f-cats.jpg) no-repeat;
+	}
+.end01{
+	width:40%;
+	height:300px;
+	margin-left:30%;
+	padding-top:100px;
+	/*
+	border:1px solid #FFFFFF;*/
+	text-align:center;
+	}
+.end01 h1{
+	font-family:"Comic Sans MS", cursive;
+	font-weight:100;
+	color:#FF8000;
+	font-size:3em;
+	}
+.end01 p{
+	color:#FFF;
+	}
+.end01 a{
+	z-index:100px;
+	text-decoration:none;
+	color:#FFF;
+	padding:10px;
+	background:#1FADC5;
+	}
+.end01 a:hover{
+	background:#FF8000;
+	}
+	
+.end1{
+	 width:100%;
+	 height:310px;
+	 background:#29292A;
+	}
+.end11{
+	width:570px;
+	height:280px;
+	/*
+	border:1px solid #FFF;*/
+	margin-left:100px;
+	float:left;
+	}
+.end11 h2{
+	color:#FFF;
+	font-weight:100;
+	font-family:"Comic Sans MS", cursive;
+	}
+.end11 p{
+	color:#FFF;
+	}
+.end11  a{
+	color:#FFF;
+	text-decoration:none;
+	padding:10px;
+	background:#1FADC5;
+	}
+.end11 a:hover{
+	background:#FF8000;
+	}
+.end12{
+	width:570px;
+	height:280px;
+		/*
+	border:1px solid #FFF;*/
+	margin-left:20px;
+	float:left;
+	}
+.end12 h2{
+	color:#FFF;
+	font-weight:100;
+	font-family:"Comic Sans MS", cursive;
+	}
+.end12 p{
+	color:#FFF;
+	}
+.end12  a{
+	color:#FFF;
+	text-decoration:none;
+	padding:10px;
+	background:#1FADC5;
+	}
+.end12 a:hover{
+	background:#FF8000;
+	}
+.end2{
+	width:100%;
+	height:40px;
+	/*
+	border:1px solid #FF8000;*/
+	background:#FF8000;
+	}
+.end2 p{
+	padding-top:15px;
+	text-align:center;
+	color:#FFF;
+	}
+	
+	
+.flink1{
+	width:100%;
+	height:40px;
+	margin-left:100px;
+	background:url(img/link.jpg) no-repeat;
+	}
+.flink2 li{
+		list-style-type:none;
+		float:left;
+		margin-right:30px;	
+		margin-left:100px;	
+		
+	}
+.flink2 a{
+		color:#333;
+		text-decoration:none;
+	}
+	
+	
+	
+	 
